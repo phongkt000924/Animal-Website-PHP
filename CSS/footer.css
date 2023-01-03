@@ -1,0 +1,49 @@
+.footer {
+    background: rgb(12, 145, 101);
+    padding: 30px 0;
+}
+
+.footer hr {
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.row {
+    display: flex;
+    color: white;
+}
+
+.row .slogan {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+.row .footer-icon {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 22px;
+}
+
+.footer-icon-item {
+    padding: 0 20%;
+    margin-top: 10px;
+}
+
+.logo-img img {
+    cursor: pointer;
+    width: 182px;
+    object-fit: cover;
+}
+
+.copyright {
+    text-align: center;
+    color: white;
+}
